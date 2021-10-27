@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Pony;
+    src: url(./FontGameXX/Pony.ttf);
+}
+
+
+.gameTX {
+    background-image: url(./video_23_game_oan_tu_ti/bgGame.png);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    /* overflow: hidden; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Pony;
+}
+
+.speech-bubble {
+    position: relative;
+    background: #45d994;
+    border-radius: 0.4em;
+}
+
+.booby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.think {
+    height: 120px;
+    width: 150px;
+    border-radius: 5px;
+    border: 5px solid #45d994;
+    background: rgb(255, 253, 253);
+}
+
+.speech-bubble:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 30px solid transparent;
+    border-top-color: #45d994;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -10px;
+    margin-bottom: -25px;
+}

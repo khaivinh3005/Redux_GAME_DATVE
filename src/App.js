@@ -10,8 +10,8 @@ function App() {
   return (
     <div>
       <Provider store={store}>
-        <BTOanTuXi />
-        {/* <BaiTapVeXemPhim /> */}
+        {/* <BTOanTuXi /> */}
+        <BaiTapVeXemPhim />
       </Provider>
     </div>
   );
